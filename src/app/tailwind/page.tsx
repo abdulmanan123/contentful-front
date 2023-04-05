@@ -30,7 +30,7 @@ export default async function Tailwind() {
         </div>
         <div className="quote">
           <p>
-            “You don't have to be great at something to start, but you have to
+            “You dont have to be great at something to start, but you have to
             start to be great at something.”
           </p>
           <span>- Zig Ziglar</span>
@@ -41,7 +41,7 @@ export default async function Tailwind() {
         <div className="card">
           <h1>CSS Flex & Grid</h1>
           <p>
-            This book takes a completely different approach. I won't teach you
+            This book takes a completely different approach. I wont teach you
             the things flex and grid can do.
           </p>
           <div className="links flex justify-between">
@@ -52,7 +52,7 @@ export default async function Tailwind() {
         <div className="card">
           <h1>CSS Flex & Grid</h1>
           <p>
-            This book takes a completely different approach. I won't teach you
+            This book takes a completely different approach. I wont teach you
             the things flex and grid can do.
           </p>
           <div className="links flex justify-between">
@@ -63,7 +63,7 @@ export default async function Tailwind() {
         <div className="card">
           <h1>CSS Flex & Grid</h1>
           <p>
-            This book takes a completely different approach. I won't teach you
+            This book takes a completely different approach. I wont teach you
             the things flex and grid can do.
           </p>
           <div className="links flex justify-between">
@@ -245,7 +245,7 @@ export default async function Tailwind() {
         <div className="container flex items-start faq">
           <span>2</span>
           <div>
-            <h3>Why should I come maybe it's a waste of time?</h3>
+            <h3>Why should I come maybe its a waste of time?</h3>
             <p>
               You should come to Rose this year because it will be one of the
               most information packed events of the year.
