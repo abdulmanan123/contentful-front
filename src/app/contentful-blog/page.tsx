@@ -28,9 +28,9 @@ export default async function ContentfulBlog() {
       </div>
       <div className="container grid sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-8">
         {blogs.items.map((blog: any) => (
-          <div className="item">
+          <div className="item" key={blog.sys.id}>
             {blogs.includes.Asset.map((a: any) => (
-              <span>
+              <span key={a.sys.id}>
                 {blog.fields.image.sys.id == a.sys.id ? (
                   <Image
                     src={"https:" + a.fields.file.url}

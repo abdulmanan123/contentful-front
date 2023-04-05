@@ -4,7 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    API_URL: "http://localhost:3000/api/",
+    // API_URL: "http://localhost:3000/api/",
+    API_URL: "https://contentful-front.vercel.app/api/",
     CONTENTFUL_SPACE_ID:"nplb9j5agad4",
     CONTENTFUL_ACCESS_KEY:"DJGJPD2lNSiZoKAFyIpwKEJWW3xt8SI-Tuki397RgtM",
     PGHOST: 'ep-billowing-tree-027847.us-east-2.aws.neon.tech',

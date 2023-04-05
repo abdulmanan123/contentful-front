@@ -24,7 +24,7 @@ export default async function Blog() {
       </div>
       <div className="container grid sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-8">
         {blogs.map((blog: any) => (
-          <div className="item">
+          <div className="item" key={blog.id}>
             <Image
               src={`https://picsum.photos/id/${blog.id}/400/300`}
               width={400}

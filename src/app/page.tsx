@@ -20,7 +20,7 @@ export default async function Home() {
   return (
     <div className="flex">
       {blogs.items.map((item: any) => (
-        <div className="quote">
+        <div className="quote" key={item.sys.id}>
           <p>“{item.fields.description.content[0].content[0].value}”</p>
           <span>- {item.fields.title}</span>
         </div>
