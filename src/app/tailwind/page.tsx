@@ -1,5 +1,7 @@
 import "../globals.css";
 
+import Image from "next/image";
+
 export default async function Tailwind() {
   return (
     <>
@@ -73,33 +75,45 @@ export default async function Tailwind() {
 
       <div className="container flex justify-around flex-wrap">
         <div className="team-profile">
-          <img
+          <Image
             src="https://images.pexels.com/photos/7242908/pexels-photo-7242908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
             className="team-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <h3>Alexa Kardi</h3>
           <p>Founder and CEO</p>
         </div>
         <div className="team-profile">
-          <img
+          <Image
             src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
             className="team-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <h3>Tavell Monroe</h3>
           <p>Web Developer</p>
         </div>
         <div className="team-profile">
-          <img
+          <Image
             src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
             className="team-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <h3>Adale Smith</h3>
           <p>Marketing Specialist</p>
         </div>
         <div className="team-profile">
-          <img
+          <Image
             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=300"
             className="team-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <h3>Thomas Mason</h3>
           <p>UX Designer</p>
@@ -109,10 +123,30 @@ export default async function Tailwind() {
       <div className="wrapper">
         <h2 className="font-bold text-3xl">Top Clients</h2>
         <div className="flex justify-around flex-wrap mt-6">
-          <img src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_200/v1628614672/logos/safe_x5alme.png" />
-          <img src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_300/v1628614672/logos/circleai_dm9slt.png" />
-          <img src="https://res.cloudinary.com/thirus/image/upload/v1628617465/logos/onpoint_bikaaj.png" />
-          <img src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_180/v1628617514/logos/Thirus_Logo_Tentative_twhvic.png" />
+          <Image
+            src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_200/v1628614672/logos/safe_x5alme.png"
+            width={180}
+            height={100}
+            alt=""
+          />
+          <Image
+            src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_300/v1628614672/logos/circleai_dm9slt.png"
+            width={180}
+            height={100}
+            alt=""
+          />
+          <Image
+            src="https://res.cloudinary.com/thirus/image/upload/v1628617465/logos/onpoint_bikaaj.png"
+            width={180}
+            height={100}
+            alt=""
+          />
+          <Image
+            src="https://res.cloudinary.com/thirus/image/upload/c_pad,h_100,w_180/v1628617514/logos/Thirus_Logo_Tentative_twhvic.png"
+            width={180}
+            height={100}
+            alt=""
+          />
         </div>
       </div>
 
@@ -129,8 +163,10 @@ export default async function Tailwind() {
         </span>
         <span className="icon-text mr-4">Video Conference</span>
 
-        <img
+        <Image
           src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=80"
+          width={80}
+          height={80}
           alt=""
         />
         <div>
@@ -239,9 +275,12 @@ export default async function Tailwind() {
 
       <div className="wrapper">
         <div className="profile2 flex items-center even:flex-row-reverse even:text-right">
-          <img
+          <Image
             src="https://images.pexels.com/photos/7242908/pexels-photo-7242908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
             className="profile2-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <div>
             <h3>Alexa Kardi</h3>
@@ -254,9 +293,12 @@ export default async function Tailwind() {
           </div>
         </div>
         <div className="profile2 flex items-center even:flex-row-reverse even:text-right">
-          <img
+          <Image
             src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
             className="profile2-img"
+            width={150}
+            height={150}
+            alt=""
           />
           <div>
             <h3>Tavell Monroe</h3>
